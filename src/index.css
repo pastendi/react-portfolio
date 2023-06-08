@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  * {
+    scroll-behavior: smooth;
+  }
+  main {
+    @apply container max-w-6xl mx-auto px-6;
+  }
+  img {
+    @apply w-full h-full object-cover;
+  }
+  .bg-blur {
+    background-color: rgba(44, 43, 43, 0.2);
+    backdrop-filter: blur(20px);
+  }
+  .nav-link {
+    @apply text-3xl capitalize font-semibold hover:text-neon;
+  }
+}

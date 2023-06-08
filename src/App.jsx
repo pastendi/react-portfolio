@@ -1,9 +1,11 @@
+import Navbar from './Navbar'
+import Hero from './Hero'
 
 function App() {
-
   return (
     <>
-      <h1>Hello world</h1>
+      <Navbar />
+      <Hero />
     </>
   )
 }
