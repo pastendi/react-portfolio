@@ -6,14 +6,14 @@ import { TfiLinkedin } from 'react-icons/tfi'
 const Welcome = () => {
   return (
     <main id='hero'>
-      <div className='mt-40 flex flex-col gap-28 lg:gap-0 lg:flex-row'>
+      <div className=' flex flex-col gap-20 md:gap-10 md:flex-row'>
         <div className='flex-1'>
-          <div className='flex flex-col space-y-8'>
+          <div className='flex flex-col space-y-12'>
             <div>
               <h1 className='text-5xl lg:text-7xl font-bold'>
                 Hi I'm <span>Pastendi</span>
               </h1>
-              <p className='text-lg sm:text-3xl'>
+              <div className='text-xl lg:text-3xl'>
                 <ReactTypingEffect
                   text={[
                     'I Love Software Development',
@@ -25,7 +25,7 @@ const Welcome = () => {
                   eraseDelay={500}
                   typingDelay={500}
                 />
-              </p>
+              </div>
             </div>
             <p className=' text-lg'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
@@ -59,7 +59,7 @@ const Welcome = () => {
           </div>
         </div>
         <div className='flex-1 flex justify-center items-center'>
-          <div className='w-72 h-72 sm:w-96 sm:h-96 rounded-full overflow-hidden shadow-lg shadow-neon'>
+          <div className='w-72 h-72 sm:w-96 sm:h-96 lg:w-[28rem] lg:h-[28rem] rounded-full overflow-hidden shadow-lg shadow-neon'>
             <img
               src='https://media.vanityfair.com/photos/5ed11cac4bf1433205878dac/4:3/w_4188,h_3141,c_limit/IWC_MONICA_BARBARO_LOOK_1_0791V1MM.jpg'
               alt='dsfsd'
