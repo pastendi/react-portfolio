@@ -59,7 +59,7 @@ const Welcome = () => {
           </div>
         </div>
         <div className='flex-1 flex justify-center items-center'>
-          <div className='w-72 h-72 sm:w-96 sm:h-96 lg:w-[28rem] lg:h-[28rem] rounded-full overflow-hidden shadow-lg shadow-neon'>
+          <div className='w-64 h-64 sm:w-96 sm:h-96 lg:w-[28rem] lg:h-[28rem] rounded-full overflow-hidden shadow-lg shadow-neon'>
             <img
               src='https://media.vanityfair.com/photos/5ed11cac4bf1433205878dac/4:3/w_4188,h_3141,c_limit/IWC_MONICA_BARBARO_LOOK_1_0791V1MM.jpg'
               alt='dsfsd'

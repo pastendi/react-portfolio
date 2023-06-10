@@ -26,7 +26,7 @@ const About = () => {
           </div>
           <div className='flex-1'>
             <h1 className='text-5xl font-bold'>About</h1>
-            <p className='mt-10 text-xl text-justify'>
+            <p className='mt-10  sm:text-lg lg:text-xl text-justify'>
               I am an ambitious, dedicated and self-taught developer with a
               strong passion for building robust and scalable web applications.
               With a solid foundation in JavaScript and a comprehensive

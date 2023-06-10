@@ -35,10 +35,10 @@ const Navbar = () => {
           </div>
         </nav>
         {showMenu && (
-          <div className='flex sm:hidden flex-col space-y-4 '>
+          <div className='flex sm:hidden flex-col space-y-4 p-6'>
             {navLinks.map((link, index) => (
-              <a href={`#${link}`} key={index} className='nav-link py-2'>
-                {link}
+              <a href={`#${link.tag}`} key={index} className='nav-link py-2'>
+                {link.name}
               </a>
             ))}
           </div>

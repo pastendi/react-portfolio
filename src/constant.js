@@ -24,3 +24,36 @@ export const navLinks = [
     name: 'contact',
   },
 ]
+
+export const projects = [
+  {
+    name: 'hello world',
+    image:
+      'https://media.vanityfair.com/photos/5ed11cac4bf1433205878dac/4:3/w_4188,h_3141,c_limit/IWC_MONICA_BARBARO_LOOK_1_0791V1MM.jpg',
+    description:
+      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore numquam eaque id perspiciatis repudiandae? Distinctio tempora exercitationem voluptas quia, quis, cumque, molestias laudantium ratione aliquam vel corrupti ipsum fugiat magnam excepturi nemo sit saepe minus officiis iste quas reprehenderit. Dolores temporibus dolorum at accusamus deleniti officia ipsa magnam, facilis corrupti.',
+    tech: ['react', 'tailwind'],
+    github: 'https://github.com/pastendi/space-tourism',
+    website: 'https://loopstudio-tendi.onrender.com',
+  },
+  {
+    name: 'hello world',
+    image:
+      'https://media.vanityfair.com/photos/5ed11cac4bf1433205878dac/4:3/w_4188,h_3141,c_limit/IWC_MONICA_BARBARO_LOOK_1_0791V1MM.jpg',
+    description:
+      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore numquam eaque id perspiciatis repudiandae? Distinctio tempora exercitationem voluptas quia, quis, cumque, molestias laudantium ratione aliquam vel corrupti ipsum fugiat magnam excepturi nemo sit saepe minus officiis iste quas reprehenderit. Dolores temporibus dolorum at accusamus deleniti officia ipsa magnam, facilis corrupti.',
+    tech: ['react', 'tailwind'],
+    github: 'https://github.com/pastendi/space-tourism',
+    website: 'https://loopstudio-tendi.onrender.com',
+  },
+  {
+    name: 'hello world',
+    image:
+      'https://media.vanityfair.com/photos/5ed11cac4bf1433205878dac/4:3/w_4188,h_3141,c_limit/IWC_MONICA_BARBARO_LOOK_1_0791V1MM.jpg',
+    description:
+      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore numquam eaque id perspiciatis repudiandae? Distinctio tempora exercitationem voluptas quia, quis, cumque, molestias laudantium ratione aliquam vel corrupti ipsum fugiat magnam excepturi nemo sit saepe minus officiis iste quas reprehenderit. Dolores temporibus dolorum at accusamus deleniti officia ipsa magnam, facilis corrupti.',
+    tech: ['react', 'tailwind'],
+    github: 'https://github.com/pastendi/space-tourism',
+    website: 'https://loopstudio-tendi.onrender.com',
+  },
+]
